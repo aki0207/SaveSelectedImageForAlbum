@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762635968F67EA729D955806 /* Pods_SaveSelectedImageFromAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04ECF13516B1A4B3CD62356 /* Pods_SaveSelectedImageFromAlbum.framework */; };
 		C586CC272262F66100B45902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586CC262262F66100B45902 /* AppDelegate.swift */; };
 		C586CC292262F66100B45902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586CC282262F66100B45902 /* ViewController.swift */; };
 		C586CC2C2262F66100B45902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C586CC2A2262F66100B45902 /* Main.storyboard */; };
 		C586CC2E2262F66300B45902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C586CC2D2262F66300B45902 /* Assets.xcassets */; };
 		C586CC312262F66300B45902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C586CC2F2262F66300B45902 /* LaunchScreen.storyboard */; };
+		C586CC392262F90100B45902 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C586CC382262F90100B45902 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		899198F5FCE5E302169961C1 /* Pods-SaveSelectedImageFromAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveSelectedImageFromAlbum.debug.xcconfig"; path = "Target Support Files/Pods-SaveSelectedImageFromAlbum/Pods-SaveSelectedImageFromAlbum.debug.xcconfig"; sourceTree = "<group>"; };
+		A04ECF13516B1A4B3CD62356 /* Pods_SaveSelectedImageFromAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaveSelectedImageFromAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C586CC232262F66100B45902 /* SaveSelectedImageFromAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveSelectedImageFromAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C586CC262262F66100B45902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C586CC282262F66100B45902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		C586CC2D2262F66300B45902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C586CC302262F66300B45902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C586CC322262F66300B45902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C586CC382262F90100B45902 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		CE0A7E4E4B69B0CA625872F4 /* Pods-SaveSelectedImageFromAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaveSelectedImageFromAlbum.release.xcconfig"; path = "Target Support Files/Pods-SaveSelectedImageFromAlbum/Pods-SaveSelectedImageFromAlbum.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762635968F67EA729D955806 /* Pods_SaveSelectedImageFromAlbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125E4F55C7D2D0977063CAC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04ECF13516B1A4B3CD62356 /* Pods_SaveSelectedImageFromAlbum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1798785F82E8CE95678F39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				899198F5FCE5E302169961C1 /* Pods-SaveSelectedImageFromAlbum.debug.xcconfig */,
+				CE0A7E4E4B69B0CA625872F4 /* Pods-SaveSelectedImageFromAlbum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C586CC1A2262F66100B45902 = {
 			isa = PBXGroup;
 			children = (
 				C586CC252262F66100B45902 /* SaveSelectedImageFromAlbum */,
 				C586CC242262F66100B45902 /* Products */,
+				AF1798785F82E8CE95678F39 /* Pods */,
+				125E4F55C7D2D0977063CAC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				C586CC262262F66100B45902 /* AppDelegate.swift */,
 				C586CC282262F66100B45902 /* ViewController.swift */,
+				C586CC382262F90100B45902 /* Image.swift */,
 				C586CC2A2262F66100B45902 /* Main.storyboard */,
 				C586CC2D2262F66300B45902 /* Assets.xcassets */,
 				C586CC2F2262F66300B45902 /* LaunchScreen.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C586CC352262F66300B45902 /* Build configuration list for PBXNativeTarget "SaveSelectedImageFromAlbum" */;
 			buildPhases = (
+				B32B7593A0F7B253C6406633 /* [CP] Check Pods Manifest.lock */,
 				C586CC1F2262F66100B45902 /* Sources */,
 				C586CC202262F66100B45902 /* Frameworks */,
 				C586CC212262F66100B45902 /* Resources */,
+				CADED228553A55874B014209 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B32B7593A0F7B253C6406633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaveSelectedImageFromAlbum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADED228553A55874B014209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SaveSelectedImageFromAlbum/Pods-SaveSelectedImageFromAlbum-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SaveSelectedImageFromAlbum/Pods-SaveSelectedImageFromAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C586CC1F2262F66100B45902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C586CC292262F66100B45902 /* ViewController.swift in Sources */,
+				C586CC392262F90100B45902 /* Image.swift in Sources */,
 				C586CC272262F66100B45902 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +359,7 @@
 		};
 		C586CC362262F66300B45902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899198F5FCE5E302169961C1 /* Pods-SaveSelectedImageFromAlbum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +377,7 @@
 		};
 		C586CC372262F66300B45902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0A7E4E4B69B0CA625872F4 /* Pods-SaveSelectedImageFromAlbum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
